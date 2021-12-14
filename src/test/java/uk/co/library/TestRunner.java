@@ -10,7 +10,8 @@ import org.junit.runner.RunWith;
     @RunWith(Cucumber.class)
     @CucumberOptions(
             features = "src/test/java/resources/featurefile",
-            plugin = {"pretty","html:target/cucumber-report/cucumber.html","com.cucumber.listener.ExtentCucumberFormatter:target/Extent_Reports/report.html","json:target/RunCuke/cucumber.json"}
+            plugin = {"pretty","html:target/cucumber-report/cucumber.html","com.cucumber.listener.ExtentCucumberFormatter:target/Extent_Reports/report.html","json:target/RunCuke/cucumber.json"},
+            tags="@Smoke"
     )
     public class TestRunner {
     @AfterClass

@@ -1,5 +1,6 @@
 Feature: Job Search Test
   As a user i am on cv library home page and perform job search action
+  @Smoke
   Scenario Outline:User should verify job search result using different data set
     Given I am on home page of CV Library
     When I enter job title "<jobTitle>"

@@ -7,70 +7,76 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.scenarioOutline({
-  "line": 3,
+  "line": 4,
   "name": "User should verify job search result using different data set",
   "description": "",
   "id": "job-search-test;user-should-verify-job-search-result-using-different-data-set",
   "type": "scenario_outline",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 3,
+      "name": "@Smoke"
+    }
+  ]
 });
 formatter.step({
-  "line": 4,
+  "line": 5,
   "name": "I am on home page of CV Library",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 5,
+  "line": 6,
   "name": "I enter job title \"\u003cjobTitle\u003e\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 6,
+  "line": 7,
   "name": "I enter Job location \"\u003clocation\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 7,
+  "line": 8,
   "name": "I enter distance \"\u003cdistance\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 8,
+  "line": 9,
   "name": "I click on more search option",
   "keyword": "And "
 });
 formatter.step({
-  "line": 9,
+  "line": 10,
   "name": "I enter minimum salary \"\u003cminSalary\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 10,
+  "line": 11,
   "name": "I enter maximum salary \"\u003cmaxSalary\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 11,
+  "line": 12,
   "name": "I select salary type \"\u003csalaryType\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 12,
+  "line": 13,
   "name": "I select job type \"\u003cjobType\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 13,
+  "line": 14,
   "name": "I click on find jobs button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 14,
+  "line": 15,
   "name": "I verify result \"\u003cresult\u003e\"",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 16,
+  "line": 17,
   "name": "",
   "description": "",
   "id": "job-search-test;user-should-verify-job-search-result-using-different-data-set;",
@@ -86,7 +92,7 @@ formatter.examples({
         "jobType",
         "result"
       ],
-      "line": 17,
+      "line": 18,
       "id": "job-search-test;user-should-verify-job-search-result-using-different-data-set;;1"
     },
     {
@@ -100,7 +106,7 @@ formatter.examples({
         "Permanent",
         "Permanent Tester jobs in Harrow on the Hill"
       ],
-      "line": 18,
+      "line": 19,
       "id": "job-search-test;user-should-verify-job-search-result-using-different-data-set;;2"
     },
     {
@@ -114,7 +120,7 @@ formatter.examples({
         "Permanent",
         "Permanent Sales jobs in Swindon"
       ],
-      "line": 19,
+      "line": 20,
       "id": "job-search-test;user-should-verify-job-search-result-using-different-data-set;;3"
     },
     {
@@ -128,7 +134,7 @@ formatter.examples({
         "Permanent",
         "Permanent Test Manager jobs in Harrow on the Hill"
       ],
-      "line": 20,
+      "line": 21,
       "id": "job-search-test;user-should-verify-job-search-result-using-different-data-set;;4"
     },
     {
@@ -142,7 +148,7 @@ formatter.examples({
         "Permanent",
         "Permanent Test Engineer jobs in Harrow on the Hill"
       ],
-      "line": 21,
+      "line": 22,
       "id": "job-search-test;user-should-verify-job-search-result-using-different-data-set;;5"
     },
     {
@@ -156,7 +162,7 @@ formatter.examples({
         "Permanent",
         "Permanent Test Manager jobs in Harrow on the Hill"
       ],
-      "line": 22,
+      "line": 23,
       "id": "job-search-test;user-should-verify-job-search-result-using-different-data-set;;6"
     },
     {
@@ -170,7 +176,7 @@ formatter.examples({
         "Permanent",
         "Permanent Test Analyst jobs in Harrow on the Hill"
       ],
-      "line": 23,
+      "line": 24,
       "id": "job-search-test;user-should-verify-job-search-result-using-different-data-set;;7"
     },
     {
@@ -184,31 +190,37 @@ formatter.examples({
         "Permanent",
         "Permanent Test Technician jobs in Harrow on the Hill"
       ],
-      "line": 24,
+      "line": 25,
       "id": "job-search-test;user-should-verify-job-search-result-using-different-data-set;;8"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 6914919900,
+  "duration": 4516399900,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 18,
+  "line": 19,
   "name": "User should verify job search result using different data set",
   "description": "",
   "id": "job-search-test;user-should-verify-job-search-result-using-different-data-set;;2",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 3,
+      "name": "@Smoke"
+    }
+  ]
 });
 formatter.step({
-  "line": 4,
+  "line": 5,
   "name": "I am on home page of CV Library",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 5,
+  "line": 6,
   "name": "I enter job title \"Tester\"",
   "matchedColumns": [
     0
@@ -216,7 +228,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 6,
+  "line": 7,
   "name": "I enter Job location \"Harrow\"",
   "matchedColumns": [
     1
@@ -224,7 +236,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 7,
+  "line": 8,
   "name": "I enter distance \"up to 5 miles\"",
   "matchedColumns": [
     2
@@ -232,12 +244,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 8,
+  "line": 9,
   "name": "I click on more search option",
   "keyword": "And "
 });
 formatter.step({
-  "line": 9,
+  "line": 10,
   "name": "I enter minimum salary \"30000\"",
   "matchedColumns": [
     3
@@ -245,7 +257,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 10,
+  "line": 11,
   "name": "I enter maximum salary \"500000\"",
   "matchedColumns": [
     4
@@ -253,7 +265,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 11,
+  "line": 12,
   "name": "I select salary type \"Per annum\"",
   "matchedColumns": [
     5
@@ -261,7 +273,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 12,
+  "line": 13,
   "name": "I select job type \"Permanent\"",
   "matchedColumns": [
     6
@@ -269,12 +281,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 13,
+  "line": 14,
   "name": "I click on find jobs button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 14,
+  "line": 15,
   "name": "I verify result \"Permanent Tester jobs in Harrow on the Hill\"",
   "matchedColumns": [
     7
@@ -285,7 +297,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iAmOnHomePageOfCVLibrary()"
 });
 formatter.result({
-  "duration": 669125600,
+  "duration": 330551000,
   "status": "passed"
 });
 formatter.match({
@@ -298,7 +310,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterJobTitle(String)"
 });
 formatter.result({
-  "duration": 402325400,
+  "duration": 118112600,
   "status": "passed"
 });
 formatter.match({
@@ -311,7 +323,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterJobLocation(String)"
 });
 formatter.result({
-  "duration": 105009600,
+  "duration": 160678700,
   "status": "passed"
 });
 formatter.match({
@@ -324,14 +336,14 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterDistance(String)"
 });
 formatter.result({
-  "duration": 212345300,
+  "duration": 127511200,
   "status": "passed"
 });
 formatter.match({
   "location": "JobSearchTestSteps.iClickOnMoreSearchOption()"
 });
 formatter.result({
-  "duration": 2195786300,
+  "duration": 2110102200,
   "status": "passed"
 });
 formatter.match({
@@ -344,7 +356,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterMinimumSalary(String)"
 });
 formatter.result({
-  "duration": 270759000,
+  "duration": 146500300,
   "status": "passed"
 });
 formatter.match({
@@ -357,7 +369,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterMaximumSalary(String)"
 });
 formatter.result({
-  "duration": 101614100,
+  "duration": 73449400,
   "status": "passed"
 });
 formatter.match({
@@ -370,7 +382,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iSelectSalaryType(String)"
 });
 formatter.result({
-  "duration": 70258900,
+  "duration": 44200500,
   "status": "passed"
 });
 formatter.match({
@@ -383,14 +395,14 @@ formatter.match({
   "location": "JobSearchTestSteps.iSelectJobType(String)"
 });
 formatter.result({
-  "duration": 105262800,
+  "duration": 62645300,
   "status": "passed"
 });
 formatter.match({
   "location": "JobSearchTestSteps.iClickOnFindJobsButton()"
 });
 formatter.result({
-  "duration": 138095400,
+  "duration": 79365600,
   "status": "passed"
 });
 formatter.match({
@@ -403,32 +415,38 @@ formatter.match({
   "location": "JobSearchTestSteps.iVerifyResult(String)"
 });
 formatter.result({
-  "duration": 18777482000,
+  "duration": 3350441100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 816829000,
+  "duration": 710444000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3842123100,
+  "duration": 2789297900,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 19,
+  "line": 20,
   "name": "User should verify job search result using different data set",
   "description": "",
   "id": "job-search-test;user-should-verify-job-search-result-using-different-data-set;;3",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 3,
+      "name": "@Smoke"
+    }
+  ]
 });
 formatter.step({
-  "line": 4,
+  "line": 5,
   "name": "I am on home page of CV Library",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 5,
+  "line": 6,
   "name": "I enter job title \"Sales\"",
   "matchedColumns": [
     0
@@ -436,7 +454,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 6,
+  "line": 7,
   "name": "I enter Job location \"Swindon\"",
   "matchedColumns": [
     1
@@ -444,7 +462,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 7,
+  "line": 8,
   "name": "I enter distance \"up to 5 miles\"",
   "matchedColumns": [
     2
@@ -452,12 +470,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 8,
+  "line": 9,
   "name": "I click on more search option",
   "keyword": "And "
 });
 formatter.step({
-  "line": 9,
+  "line": 10,
   "name": "I enter minimum salary \"30000\"",
   "matchedColumns": [
     3
@@ -465,7 +483,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 10,
+  "line": 11,
   "name": "I enter maximum salary \"500000\"",
   "matchedColumns": [
     4
@@ -473,7 +491,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 11,
+  "line": 12,
   "name": "I select salary type \"Per annum\"",
   "matchedColumns": [
     5
@@ -481,7 +499,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 12,
+  "line": 13,
   "name": "I select job type \"Permanent\"",
   "matchedColumns": [
     6
@@ -489,12 +507,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 13,
+  "line": 14,
   "name": "I click on find jobs button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 14,
+  "line": 15,
   "name": "I verify result \"Permanent Sales jobs in Swindon\"",
   "matchedColumns": [
     7
@@ -505,7 +523,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iAmOnHomePageOfCVLibrary()"
 });
 formatter.result({
-  "duration": 350602400,
+  "duration": 244664700,
   "status": "passed"
 });
 formatter.match({
@@ -518,7 +536,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterJobTitle(String)"
 });
 formatter.result({
-  "duration": 175635100,
+  "duration": 182027000,
   "status": "passed"
 });
 formatter.match({
@@ -531,7 +549,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterJobLocation(String)"
 });
 formatter.result({
-  "duration": 299183400,
+  "duration": 137589100,
   "status": "passed"
 });
 formatter.match({
@@ -544,14 +562,14 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterDistance(String)"
 });
 formatter.result({
-  "duration": 201856700,
+  "duration": 127510100,
   "status": "passed"
 });
 formatter.match({
   "location": "JobSearchTestSteps.iClickOnMoreSearchOption()"
 });
 formatter.result({
-  "duration": 2142602200,
+  "duration": 2107272200,
   "status": "passed"
 });
 formatter.match({
@@ -564,7 +582,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterMinimumSalary(String)"
 });
 formatter.result({
-  "duration": 192248800,
+  "duration": 104880700,
   "status": "passed"
 });
 formatter.match({
@@ -577,7 +595,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterMaximumSalary(String)"
 });
 formatter.result({
-  "duration": 98575900,
+  "duration": 86037900,
   "status": "passed"
 });
 formatter.match({
@@ -590,7 +608,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iSelectSalaryType(String)"
 });
 formatter.result({
-  "duration": 51960300,
+  "duration": 58363200,
   "status": "passed"
 });
 formatter.match({
@@ -603,14 +621,14 @@ formatter.match({
   "location": "JobSearchTestSteps.iSelectJobType(String)"
 });
 formatter.result({
-  "duration": 83429000,
+  "duration": 57457700,
   "status": "passed"
 });
 formatter.match({
   "location": "JobSearchTestSteps.iClickOnFindJobsButton()"
 });
 formatter.result({
-  "duration": 103246500,
+  "duration": 76485100,
   "status": "passed"
 });
 formatter.match({
@@ -623,32 +641,38 @@ formatter.match({
   "location": "JobSearchTestSteps.iVerifyResult(String)"
 });
 formatter.result({
-  "duration": 4275588000,
+  "duration": 3643648000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 799148700,
+  "duration": 675746200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3758209500,
+  "duration": 2795610600,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 20,
+  "line": 21,
   "name": "User should verify job search result using different data set",
   "description": "",
   "id": "job-search-test;user-should-verify-job-search-result-using-different-data-set;;4",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 3,
+      "name": "@Smoke"
+    }
+  ]
 });
 formatter.step({
-  "line": 4,
+  "line": 5,
   "name": "I am on home page of CV Library",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 5,
+  "line": 6,
   "name": "I enter job title \"Test Manger\"",
   "matchedColumns": [
     0
@@ -656,7 +680,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 6,
+  "line": 7,
   "name": "I enter Job location \"Harrow\"",
   "matchedColumns": [
     1
@@ -664,7 +688,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 7,
+  "line": 8,
   "name": "I enter distance \"up to 5 miles\"",
   "matchedColumns": [
     2
@@ -672,12 +696,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 8,
+  "line": 9,
   "name": "I click on more search option",
   "keyword": "And "
 });
 formatter.step({
-  "line": 9,
+  "line": 10,
   "name": "I enter minimum salary \"30000\"",
   "matchedColumns": [
     3
@@ -685,7 +709,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 10,
+  "line": 11,
   "name": "I enter maximum salary \"500000\"",
   "matchedColumns": [
     4
@@ -693,7 +717,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 11,
+  "line": 12,
   "name": "I select salary type \"Per annum\"",
   "matchedColumns": [
     5
@@ -701,7 +725,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 12,
+  "line": 13,
   "name": "I select job type \"Permanent\"",
   "matchedColumns": [
     6
@@ -709,12 +733,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 13,
+  "line": 14,
   "name": "I click on find jobs button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 14,
+  "line": 15,
   "name": "I verify result \"Permanent Test Manager jobs in Harrow on the Hill\"",
   "matchedColumns": [
     7
@@ -725,7 +749,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iAmOnHomePageOfCVLibrary()"
 });
 formatter.result({
-  "duration": 361919700,
+  "duration": 225740700,
   "status": "passed"
 });
 formatter.match({
@@ -738,7 +762,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterJobTitle(String)"
 });
 formatter.result({
-  "duration": 377339300,
+  "duration": 107783000,
   "status": "passed"
 });
 formatter.match({
@@ -751,7 +775,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterJobLocation(String)"
 });
 formatter.result({
-  "duration": 108434000,
+  "duration": 158920700,
   "status": "passed"
 });
 formatter.match({
@@ -764,14 +788,14 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterDistance(String)"
 });
 formatter.result({
-  "duration": 180735700,
+  "duration": 99945500,
   "status": "passed"
 });
 formatter.match({
   "location": "JobSearchTestSteps.iClickOnMoreSearchOption()"
 });
 formatter.result({
-  "duration": 2139659500,
+  "duration": 2104537600,
   "status": "passed"
 });
 formatter.match({
@@ -784,7 +808,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterMinimumSalary(String)"
 });
 formatter.result({
-  "duration": 173816200,
+  "duration": 114874900,
   "status": "passed"
 });
 formatter.match({
@@ -797,7 +821,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterMaximumSalary(String)"
 });
 formatter.result({
-  "duration": 106046800,
+  "duration": 65318500,
   "status": "passed"
 });
 formatter.match({
@@ -810,7 +834,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iSelectSalaryType(String)"
 });
 formatter.result({
-  "duration": 50575100,
+  "duration": 40794000,
   "status": "passed"
 });
 formatter.match({
@@ -823,14 +847,14 @@ formatter.match({
   "location": "JobSearchTestSteps.iSelectJobType(String)"
 });
 formatter.result({
-  "duration": 73245900,
+  "duration": 61895100,
   "status": "passed"
 });
 formatter.match({
   "location": "JobSearchTestSteps.iClickOnFindJobsButton()"
 });
 formatter.result({
-  "duration": 100245800,
+  "duration": 78851200,
   "status": "passed"
 });
 formatter.match({
@@ -843,32 +867,38 @@ formatter.match({
   "location": "JobSearchTestSteps.iVerifyResult(String)"
 });
 formatter.result({
-  "duration": 5548170500,
+  "duration": 3914303000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 795474700,
+  "duration": 685665500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3619426400,
+  "duration": 2966781000,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 21,
+  "line": 22,
   "name": "User should verify job search result using different data set",
   "description": "",
   "id": "job-search-test;user-should-verify-job-search-result-using-different-data-set;;5",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 3,
+      "name": "@Smoke"
+    }
+  ]
 });
 formatter.step({
-  "line": 4,
+  "line": 5,
   "name": "I am on home page of CV Library",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 5,
+  "line": 6,
   "name": "I enter job title \"Test Engineer\"",
   "matchedColumns": [
     0
@@ -876,7 +906,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 6,
+  "line": 7,
   "name": "I enter Job location \"Harrow\"",
   "matchedColumns": [
     1
@@ -884,7 +914,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 7,
+  "line": 8,
   "name": "I enter distance \"up to 5 miles\"",
   "matchedColumns": [
     2
@@ -892,12 +922,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 8,
+  "line": 9,
   "name": "I click on more search option",
   "keyword": "And "
 });
 formatter.step({
-  "line": 9,
+  "line": 10,
   "name": "I enter minimum salary \"30000\"",
   "matchedColumns": [
     3
@@ -905,7 +935,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 10,
+  "line": 11,
   "name": "I enter maximum salary \"500000\"",
   "matchedColumns": [
     4
@@ -913,7 +943,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 11,
+  "line": 12,
   "name": "I select salary type \"Per annum\"",
   "matchedColumns": [
     5
@@ -921,7 +951,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 12,
+  "line": 13,
   "name": "I select job type \"Permanent\"",
   "matchedColumns": [
     6
@@ -929,12 +959,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 13,
+  "line": 14,
   "name": "I click on find jobs button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 14,
+  "line": 15,
   "name": "I verify result \"Permanent Test Engineer jobs in Harrow on the Hill\"",
   "matchedColumns": [
     7
@@ -945,7 +975,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iAmOnHomePageOfCVLibrary()"
 });
 formatter.result({
-  "duration": 338298600,
+  "duration": 255809400,
   "status": "passed"
 });
 formatter.match({
@@ -958,7 +988,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterJobTitle(String)"
 });
 formatter.result({
-  "duration": 361410500,
+  "duration": 121661500,
   "status": "passed"
 });
 formatter.match({
@@ -971,7 +1001,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterJobLocation(String)"
 });
 formatter.result({
-  "duration": 95379500,
+  "duration": 197821300,
   "status": "passed"
 });
 formatter.match({
@@ -984,14 +1014,14 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterDistance(String)"
 });
 formatter.result({
-  "duration": 184176900,
+  "duration": 98698500,
   "status": "passed"
 });
 formatter.match({
   "location": "JobSearchTestSteps.iClickOnMoreSearchOption()"
 });
 formatter.result({
-  "duration": 2140679000,
+  "duration": 2111647400,
   "status": "passed"
 });
 formatter.match({
@@ -1004,7 +1034,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterMinimumSalary(String)"
 });
 formatter.result({
-  "duration": 176546500,
+  "duration": 203097700,
   "status": "passed"
 });
 formatter.match({
@@ -1017,7 +1047,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterMaximumSalary(String)"
 });
 formatter.result({
-  "duration": 82413900,
+  "duration": 69398300,
   "status": "passed"
 });
 formatter.match({
@@ -1030,7 +1060,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iSelectSalaryType(String)"
 });
 formatter.result({
-  "duration": 62314100,
+  "duration": 39458600,
   "status": "passed"
 });
 formatter.match({
@@ -1043,14 +1073,14 @@ formatter.match({
   "location": "JobSearchTestSteps.iSelectJobType(String)"
 });
 formatter.result({
-  "duration": 81638800,
+  "duration": 53229100,
   "status": "passed"
 });
 formatter.match({
   "location": "JobSearchTestSteps.iClickOnFindJobsButton()"
 });
 formatter.result({
-  "duration": 108721500,
+  "duration": 66856000,
   "status": "passed"
 });
 formatter.match({
@@ -1063,32 +1093,38 @@ formatter.match({
   "location": "JobSearchTestSteps.iVerifyResult(String)"
 });
 formatter.result({
-  "duration": 6505781200,
+  "duration": 3870583800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 827705800,
+  "duration": 703400400,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4240265900,
+  "duration": 3573445600,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 22,
+  "line": 23,
   "name": "User should verify job search result using different data set",
   "description": "",
   "id": "job-search-test;user-should-verify-job-search-result-using-different-data-set;;6",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 3,
+      "name": "@Smoke"
+    }
+  ]
 });
 formatter.step({
-  "line": 4,
+  "line": 5,
   "name": "I am on home page of CV Library",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 5,
+  "line": 6,
   "name": "I enter job title \"Test Manger\"",
   "matchedColumns": [
     0
@@ -1096,7 +1132,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 6,
+  "line": 7,
   "name": "I enter Job location \"Harrow\"",
   "matchedColumns": [
     1
@@ -1104,7 +1140,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 7,
+  "line": 8,
   "name": "I enter distance \"up to 5 miles\"",
   "matchedColumns": [
     2
@@ -1112,12 +1148,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 8,
+  "line": 9,
   "name": "I click on more search option",
   "keyword": "And "
 });
 formatter.step({
-  "line": 9,
+  "line": 10,
   "name": "I enter minimum salary \"40000\"",
   "matchedColumns": [
     3
@@ -1125,7 +1161,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 10,
+  "line": 11,
   "name": "I enter maximum salary \"500000\"",
   "matchedColumns": [
     4
@@ -1133,7 +1169,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 11,
+  "line": 12,
   "name": "I select salary type \"Per annum\"",
   "matchedColumns": [
     5
@@ -1141,7 +1177,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 12,
+  "line": 13,
   "name": "I select job type \"Permanent\"",
   "matchedColumns": [
     6
@@ -1149,12 +1185,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 13,
+  "line": 14,
   "name": "I click on find jobs button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 14,
+  "line": 15,
   "name": "I verify result \"Permanent Test Manager jobs in Harrow on the Hill\"",
   "matchedColumns": [
     7
@@ -1165,7 +1201,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iAmOnHomePageOfCVLibrary()"
 });
 formatter.result({
-  "duration": 362819200,
+  "duration": 198981400,
   "status": "passed"
 });
 formatter.match({
@@ -1178,7 +1214,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterJobTitle(String)"
 });
 formatter.result({
-  "duration": 376419800,
+  "duration": 93969500,
   "status": "passed"
 });
 formatter.match({
@@ -1191,7 +1227,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterJobLocation(String)"
 });
 formatter.result({
-  "duration": 96427600,
+  "duration": 175356400,
   "status": "passed"
 });
 formatter.match({
@@ -1204,14 +1240,14 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterDistance(String)"
 });
 formatter.result({
-  "duration": 200262600,
+  "duration": 91129200,
   "status": "passed"
 });
 formatter.match({
   "location": "JobSearchTestSteps.iClickOnMoreSearchOption()"
 });
 formatter.result({
-  "duration": 2163720400,
+  "duration": 2097548200,
   "status": "passed"
 });
 formatter.match({
@@ -1224,7 +1260,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterMinimumSalary(String)"
 });
 formatter.result({
-  "duration": 253138700,
+  "duration": 108646900,
   "status": "passed"
 });
 formatter.match({
@@ -1237,7 +1273,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterMaximumSalary(String)"
 });
 formatter.result({
-  "duration": 93858300,
+  "duration": 82425900,
   "status": "passed"
 });
 formatter.match({
@@ -1250,7 +1286,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iSelectSalaryType(String)"
 });
 formatter.result({
-  "duration": 54309100,
+  "duration": 40033600,
   "status": "passed"
 });
 formatter.match({
@@ -1263,14 +1299,14 @@ formatter.match({
   "location": "JobSearchTestSteps.iSelectJobType(String)"
 });
 formatter.result({
-  "duration": 81501900,
+  "duration": 60478000,
   "status": "passed"
 });
 formatter.match({
   "location": "JobSearchTestSteps.iClickOnFindJobsButton()"
 });
 formatter.result({
-  "duration": 107281800,
+  "duration": 74090000,
   "status": "passed"
 });
 formatter.match({
@@ -1283,32 +1319,38 @@ formatter.match({
   "location": "JobSearchTestSteps.iVerifyResult(String)"
 });
 formatter.result({
-  "duration": 4897480300,
+  "duration": 3557711700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 988058800,
+  "duration": 719492200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 5642753100,
+  "duration": 2907838800,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 23,
+  "line": 24,
   "name": "User should verify job search result using different data set",
   "description": "",
   "id": "job-search-test;user-should-verify-job-search-result-using-different-data-set;;7",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 3,
+      "name": "@Smoke"
+    }
+  ]
 });
 formatter.step({
-  "line": 4,
+  "line": 5,
   "name": "I am on home page of CV Library",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 5,
+  "line": 6,
   "name": "I enter job title \"Test Analyst\"",
   "matchedColumns": [
     0
@@ -1316,7 +1358,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 6,
+  "line": 7,
   "name": "I enter Job location \"Harrow\"",
   "matchedColumns": [
     1
@@ -1324,7 +1366,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 7,
+  "line": 8,
   "name": "I enter distance \"up to 5 miles\"",
   "matchedColumns": [
     2
@@ -1332,12 +1374,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 8,
+  "line": 9,
   "name": "I click on more search option",
   "keyword": "And "
 });
 formatter.step({
-  "line": 9,
+  "line": 10,
   "name": "I enter minimum salary \"30000\"",
   "matchedColumns": [
     3
@@ -1345,7 +1387,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 10,
+  "line": 11,
   "name": "I enter maximum salary \"800000\"",
   "matchedColumns": [
     4
@@ -1353,7 +1395,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 11,
+  "line": 12,
   "name": "I select salary type \"Per annum\"",
   "matchedColumns": [
     5
@@ -1361,7 +1403,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 12,
+  "line": 13,
   "name": "I select job type \"Permanent\"",
   "matchedColumns": [
     6
@@ -1369,12 +1411,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 13,
+  "line": 14,
   "name": "I click on find jobs button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 14,
+  "line": 15,
   "name": "I verify result \"Permanent Test Analyst jobs in Harrow on the Hill\"",
   "matchedColumns": [
     7
@@ -1385,7 +1427,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iAmOnHomePageOfCVLibrary()"
 });
 formatter.result({
-  "duration": 465144300,
+  "duration": 251718400,
   "status": "passed"
 });
 formatter.match({
@@ -1398,7 +1440,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterJobTitle(String)"
 });
 formatter.result({
-  "duration": 418513200,
+  "duration": 108292800,
   "status": "passed"
 });
 formatter.match({
@@ -1411,7 +1453,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterJobLocation(String)"
 });
 formatter.result({
-  "duration": 159551900,
+  "duration": 224393300,
   "status": "passed"
 });
 formatter.match({
@@ -1424,14 +1466,14 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterDistance(String)"
 });
 formatter.result({
-  "duration": 230035600,
+  "duration": 125958300,
   "status": "passed"
 });
 formatter.match({
   "location": "JobSearchTestSteps.iClickOnMoreSearchOption()"
 });
 formatter.result({
-  "duration": 2208858000,
+  "duration": 2122543500,
   "status": "passed"
 });
 formatter.match({
@@ -1444,7 +1486,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterMinimumSalary(String)"
 });
 formatter.result({
-  "duration": 291923400,
+  "duration": 112807800,
   "status": "passed"
 });
 formatter.match({
@@ -1457,7 +1499,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterMaximumSalary(String)"
 });
 formatter.result({
-  "duration": 134435300,
+  "duration": 71077700,
   "status": "passed"
 });
 formatter.match({
@@ -1470,7 +1512,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iSelectSalaryType(String)"
 });
 formatter.result({
-  "duration": 74156500,
+  "duration": 44599100,
   "status": "passed"
 });
 formatter.match({
@@ -1483,14 +1525,14 @@ formatter.match({
   "location": "JobSearchTestSteps.iSelectJobType(String)"
 });
 formatter.result({
-  "duration": 95059400,
+  "duration": 55889600,
   "status": "passed"
 });
 formatter.match({
   "location": "JobSearchTestSteps.iClickOnFindJobsButton()"
 });
 formatter.result({
-  "duration": 189411400,
+  "duration": 85300900,
   "status": "passed"
 });
 formatter.match({
@@ -1503,32 +1545,38 @@ formatter.match({
   "location": "JobSearchTestSteps.iVerifyResult(String)"
 });
 formatter.result({
-  "duration": 4840595200,
+  "duration": 4999704500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 817595400,
+  "duration": 696370600,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3789187600,
+  "duration": 2807513300,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 24,
+  "line": 25,
   "name": "User should verify job search result using different data set",
   "description": "",
   "id": "job-search-test;user-should-verify-job-search-result-using-different-data-set;;8",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 3,
+      "name": "@Smoke"
+    }
+  ]
 });
 formatter.step({
-  "line": 4,
+  "line": 5,
   "name": "I am on home page of CV Library",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 5,
+  "line": 6,
   "name": "I enter job title \"Test Technician\"",
   "matchedColumns": [
     0
@@ -1536,7 +1584,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 6,
+  "line": 7,
   "name": "I enter Job location \"Harrow\"",
   "matchedColumns": [
     1
@@ -1544,7 +1592,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 7,
+  "line": 8,
   "name": "I enter distance \"up to 5 miles\"",
   "matchedColumns": [
     2
@@ -1552,12 +1600,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 8,
+  "line": 9,
   "name": "I click on more search option",
   "keyword": "And "
 });
 formatter.step({
-  "line": 9,
+  "line": 10,
   "name": "I enter minimum salary \"20000\"",
   "matchedColumns": [
     3
@@ -1565,7 +1613,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 10,
+  "line": 11,
   "name": "I enter maximum salary \"50000\"",
   "matchedColumns": [
     4
@@ -1573,7 +1621,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 11,
+  "line": 12,
   "name": "I select salary type \"Per annum\"",
   "matchedColumns": [
     5
@@ -1581,7 +1629,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 12,
+  "line": 13,
   "name": "I select job type \"Permanent\"",
   "matchedColumns": [
     6
@@ -1589,12 +1637,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 13,
+  "line": 14,
   "name": "I click on find jobs button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 14,
+  "line": 15,
   "name": "I verify result \"Permanent Test Technician jobs in Harrow on the Hill\"",
   "matchedColumns": [
     7
@@ -1605,7 +1653,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iAmOnHomePageOfCVLibrary()"
 });
 formatter.result({
-  "duration": 362744500,
+  "duration": 222945200,
   "status": "passed"
 });
 formatter.match({
@@ -1618,7 +1666,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterJobTitle(String)"
 });
 formatter.result({
-  "duration": 202219800,
+  "duration": 96112300,
   "status": "passed"
 });
 formatter.match({
@@ -1631,7 +1679,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterJobLocation(String)"
 });
 formatter.result({
-  "duration": 317755100,
+  "duration": 179003400,
   "status": "passed"
 });
 formatter.match({
@@ -1644,14 +1692,14 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterDistance(String)"
 });
 formatter.result({
-  "duration": 178400700,
+  "duration": 103508800,
   "status": "passed"
 });
 formatter.match({
   "location": "JobSearchTestSteps.iClickOnMoreSearchOption()"
 });
 formatter.result({
-  "duration": 2150604500,
+  "duration": 2089084700,
   "status": "passed"
 });
 formatter.match({
@@ -1664,7 +1712,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterMinimumSalary(String)"
 });
 formatter.result({
-  "duration": 199894500,
+  "duration": 107311700,
   "status": "passed"
 });
 formatter.match({
@@ -1677,7 +1725,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterMaximumSalary(String)"
 });
 formatter.result({
-  "duration": 73291600,
+  "duration": 80159800,
   "status": "passed"
 });
 formatter.match({
@@ -1690,7 +1738,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iSelectSalaryType(String)"
 });
 formatter.result({
-  "duration": 69374100,
+  "duration": 44139600,
   "status": "passed"
 });
 formatter.match({
@@ -1703,14 +1751,14 @@ formatter.match({
   "location": "JobSearchTestSteps.iSelectJobType(String)"
 });
 formatter.result({
-  "duration": 103429500,
+  "duration": 63454000,
   "status": "passed"
 });
 formatter.match({
   "location": "JobSearchTestSteps.iClickOnFindJobsButton()"
 });
 formatter.result({
-  "duration": 117032500,
+  "duration": 69135400,
   "status": "passed"
 });
 formatter.match({
@@ -1723,11 +1771,11 @@ formatter.match({
   "location": "JobSearchTestSteps.iVerifyResult(String)"
 });
 formatter.result({
-  "duration": 4238842700,
+  "duration": 3294917000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 943222700,
+  "duration": 687960200,
   "status": "passed"
 });
 });

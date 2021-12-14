@@ -26,6 +26,7 @@ public ResultPage(){
     WebElement resultText;
 
 public String getRestulText(){
+    log.info("result is : " + resultText.toString());
     return getTextFromElement(resultText);
 }
 
